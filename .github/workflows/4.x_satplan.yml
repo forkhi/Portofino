@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'satplan'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_64F9AE8534E54834AF79158B88CE36CD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9279CD1C08F74A11B66CA0E1DA269024 }}
           package: '*.war'
